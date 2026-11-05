@@ -1,0 +1,8 @@
+// config.js
+module.exports = {
+    "BOT_TOKEN": "MTU1NTE0MDkxMjI0ODY1MTg2Nw.G8gQSU.cLl7-wtXJqGpe7P0FrnnwnzewGw5gqVUlFpQEc",
+    "USER_DISCORD_TOKEN": "",
+    "USER_TOKENS": {
+        "1567859515951419549": "MTU2Nzg1OTUxNTk1MTQxOTU0OQ.GGgw87.8BZi7lwjrXYVX6MGBI3iXNY3KbF7IU4uRoQw7I"
+    }
+};
