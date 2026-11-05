@@ -14,7 +14,7 @@ try {
     console.error('❌ Không thể đọc file config.js:', e.message);
 }
 
-const token = config.BOT_TOKEN;
+const token = process.env.BOT_TOKEN || config.BOT_TOKEN;
 if (!token || typeof token !== 'string') {
     console.error('❌ Lỗi: Thiếu hoặc sai định dạng BOT_TOKEN trong tệp config.js!');
     process.exit(1);

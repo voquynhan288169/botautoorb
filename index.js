@@ -699,4 +699,4 @@ bot.on('interactionCreate', async (interaction) => {
 });
 
 bot.once('ready', () => console.log(`Bot online: ${bot.user.tag}`));
-bot.login(config.BOT_TOKEN);
+bot.login(process.env.BOT_TOKEN || config.BOT_TOKEN);
